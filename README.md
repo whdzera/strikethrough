@@ -1,5 +1,7 @@
 ## Strikethrough Text Generator
 
+A Simple Jekyll Stimulus app to generate strikethrough text
+
 ### Prerequisites
 - Ruby 3.0^
 - Node 2.2^

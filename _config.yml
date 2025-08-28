@@ -1,7 +1,7 @@
 title: Strikethrough
 email: whdzera@gmail.com
 description: A simple strikethrough text generator
-baseurl: "" 
+baseurl: "/strikethrough" 
 url: ""
 
 include:

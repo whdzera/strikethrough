@@ -41,7 +41,7 @@ layout: default
                 value="coret"
                 checked
                 data-action="change->strikethrough#selectStyle"
-                class="mr-3 text-blue-600 focus:ring-blue-500"
+                class="clickable mr-3 text-blue-600 focus:ring-blue-500 accent-blue-500"
               />
               <label for="style-coret" class="flex-1 cursor-pointer">
                 Coret
@@ -62,7 +62,7 @@ layout: default
                 name="textStyle"
                 value="symbol-slash"
                 data-action="change->strikethrough#selectStyle"
-                class="mr-3 text-blue-600 focus:ring-blue-500"
+                class="clickable mr-3 text-blue-600 focus:ring-blue-500 accent-blue-500"
               />
               <label for="style-symbol-slash" class="flex-1 cursor-pointer">
                 Simbol/slash
@@ -81,7 +81,7 @@ layout: default
                 name="textStyle"
                 value="garis-bawah"
                 data-action="change->strikethrough#selectStyle"
-                class="mr-3 text-blue-600 focus:ring-blue-500"
+                class="clickable mr-3 text-blue-600 focus:ring-blue-500 accent-blue-500"
               />
               <label for="style-garis-bawah" class="flex-1 cursor-pointer">
                 Garis bawah
@@ -100,7 +100,7 @@ layout: default
                 name="textStyle"
                 value="garis-putus"
                 data-action="change->strikethrough#selectStyle"
-                class="mr-3 text-blue-600 focus:ring-blue-500"
+                class="clickable mr-3 text-blue-600 focus:ring-blue-500 accent-blue-500"
               />
               <label for="style-garis-putus" class="flex-1 cursor-pointer">
                 Garis putus-putus
@@ -121,7 +121,7 @@ layout: default
                 name="textStyle"
                 value="garis-ganda"
                 data-action="change->strikethrough#selectStyle"
-                class="mr-3 text-blue-600 focus:ring-blue-500"
+                class="clickable mr-3 text-blue-600 focus:ring-blue-500 accent-blue-500"
               />
               <label for="style-garis-ganda" class="flex-1 cursor-pointer">
                 Menggarisbawahi ganda
@@ -142,7 +142,7 @@ layout: default
                 name="textStyle"
                 value="garis-gelombang"
                 data-action="change->strikethrough#selectStyle"
-                class="mr-3 text-blue-600 focus:ring-blue-500"
+                class="clickable mr-3 text-blue-600 focus:ring-blue-500 accent-blue-500"
               />
               <label for="style-garis-gelombang" class="flex-1 cursor-pointer">
                 Garis gelombang
@@ -160,7 +160,7 @@ layout: default
         <div>
           <button
             data-action="click->strikethrough#convert"
-            class="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-6 rounded-md transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+            class="clickable w-full bg-blue-400 hover:bg-blue-500 text-gray-700 dark:text-gray-100 font-medium py-3 px-6 rounded-md transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
           >
             Convert Text
           </button>
@@ -178,7 +178,7 @@ layout: default
           <button
             data-strikethrough-target="copyBtn"
             data-action="click->strikethrough#copy"
-            class="absolute top-2 right-2 px-3 py-1 text-sm bg-blue-600 text-white rounded hover:bg-blue-700 transition-colors"
+            class="clickable absolute top-2 right-2 px-3 py-1 text-sm bg-blue-400 text-gray-700 dark:text-gray-100 rounded hover:bg-blue-500 transition-colors"
           >
             Copy
           </button>

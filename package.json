@@ -1,7 +1,7 @@
 {
-  "name": "jekyll-template-starter",
+  "name": "strikethrough-generator",
   "version": "1.0.0",
-  "description": "Boilerplate for Jekyll projects with Vite, Tailwind CSS and Stimulus JS",
+  "description": "strikethrough text generator",
   "author": "whdzera",
   "license": "MIT",
   "dependencies": {

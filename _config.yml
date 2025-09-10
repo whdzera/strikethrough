@@ -1,8 +1,16 @@
 title: Strikethrough
 email: whdzera@gmail.com
 description: A simple strikethrough text generator
-baseurl: "/strikethrough" 
+baseurl: "/strikethrough"
 url: ""
 
 include:
   - app
+
+exclude:
+  - spec
+  - package.json
+  - package-lock.json
+  - README.md
+  - Rakefile
+  - vite.config.js
